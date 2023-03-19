@@ -8,3 +8,9 @@ As part of the Systems and Software Engineering I lecture (by Prof. Dr. Ramesh) 
 2. [Smart Cook:](https://github.com/CarloStock/SmartCook) An app that suggests food recipes based on photos of food ingredients. The ingredients are recognized by a faster RCNN model.
 
 3. [News Summarizer:](https://github.com/Ansothso/News-Summeraizer) A web-based application for text summarization that shows summarized news from The Guardian and BBC. The summaries are generated using OpenAI's GPT-3 Davinci model.
+
+## Installation & Usage:
+### Spotify Group Recommendation ML
+1. Set up your access to the Spotify API: Navigate to the [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/). Create a (free) Spotify developer account. Create an App in the dashboard. Go to the settings for this app and add "http://localhost:8888/callback" as redirect URI. Also get your client_id & client_credentials here and save them in the code files "client_id.txt" / "client_credentials.txt".
+2. Install requirements: It is recommended to create a virtual environment and install then required packages via the command "pip install -r requirements.txt".
+3. Run ml_main.py. You can also specify the playlist size in this file.
